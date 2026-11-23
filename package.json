@@ -1,0 +1,16 @@
+{
+  "name": "io-sandbox",
+  "version": "0.0.0",
+  "description": "minimalest-react-hello-world",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build --public-url './' 'src/index.html'"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
