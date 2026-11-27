@@ -2,15 +2,18 @@
   "name": "io-sandbox",
   "version": "0.0.0",
   "description": "minimalest-react-hello-world",
-  "devDependencies": {
-    "parcel": "^2.16.4"
-  },
+  "type": "module",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build --public-url './' 'src/index.html'"
+    "dev": "vite src",
+    "preview": "vite preview src",
+    "build": "tsc -b && vite build src"
   },
   "dependencies": {
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.3",
+    "vite": "^8.4.0"
   }
 }
